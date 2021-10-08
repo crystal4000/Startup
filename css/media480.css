@@ -1,0 +1,33 @@
+@media (max-width:480px) {
+    .carousel-inner h1{
+        font-size: 40px;
+    }
+    
+    .content-title{
+        font-size: 28px;
+        line-height: 46px;
+    }
+   
+   .about{
+       text-align: center;
+   } 
+    .entrust{
+        padding: 50px 30px;
+    }
+
+    .entrust h2{
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .footer-socials li a{
+        margin-left: 30px;
+    }
+
+
+
+    .testimonial-item .testimonial-item-content {
+        padding-left: 0px;
+        padding-top: 30px;
+      }
+}

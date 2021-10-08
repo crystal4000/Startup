@@ -1,0 +1,17 @@
+@media(max-width:768px){
+    .section-intro{
+        padding: 100px 20px;
+    }
+
+    .bg-about{
+        display: none;
+    }
+
+    .entrust{
+        padding: 60px 90px;
+    }
+
+    .footer-socials li a{
+        margin-left: 100px;
+    }
+}
