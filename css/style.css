@@ -67,6 +67,11 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     background-size: cover;
 }
 
+.content-title {
+  font-size: 40px;
+  line-height: 50px;
+}
+
 .entrust{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/home-3.jpg");
     background-size: cover;
