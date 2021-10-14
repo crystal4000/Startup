@@ -44,48 +44,17 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   }
   
 
-#main_nav .navbar-brand{
-    color: #fff;
-    font-weight: 600;
-    letter-spacing: 1px;
-}
-
-#main_nav .navbar-brand span{
-    color: #f75757;
-}
-
 /*Index.html*/
+.red-color{
+  color: #f75757;
+}
+
 .contain-bg{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/home-1.jpg") no-repeat;
     background-position: center center; 
     background-size: cover;
     min-height: 90vh;
     width: 100%;
-}
-
-#index-banner .carousel-item {
-    min-height: 60vh;
-  }
-
-.section-intro{
-    padding: 100px;
-}
-
-.section-title{
-    margin-bottom: 70px;
-}
-
-.section-title span{
-    color: #f75757;
-}
-
-.content-title{
-    font-size: 40px;
-    line-height: 50px;
-}
-
-.about{
-    min-height: 550px;
 }
 
 .bg-about{
@@ -98,18 +67,6 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     background-size: cover;
 }
 
-.about-item{
-    margin-top: 50px;
-}
-
-.about-item span{
-    color: #f75757;
-}
-
-.about-content{
-        padding: 20px 0px 0px 0px;
-}
-
 .entrust{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/home-3.jpg");
     background-size: cover;
@@ -117,26 +74,9 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
    height: 80vh;
 }
 
-.counter-item .counter-stat {
-    font-size: 50px;
-  }
-  
-  .counter-item p {
-    margin-bottom: 0px;
-  }
-
   .widget{
     margin-bottom: 30px;
     padding-bottom: 35px;
-  }
-
-  .widget ul{
-    line-height: 35px;
-  }
-
-  .widget h4{
-    font-size: 1.3rem;
-    line-height: 30px;
   }
 
   .widget p{
@@ -148,15 +88,6 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     padding: 13px 25px 10px;
     font-size: 12px;
     color: #fff;
-  }
-
-  .widget a{
-    text-decoration: none;
-    color: #000;
-  }
-
-  .widget a span{
-    color: #f75757;
   }
 
   .sub-form .form-control{
@@ -176,11 +107,6 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     background-size: cover;
   }
 
-  .page-title h1{
-    font-family: "Poppins", sans-serif; 
-    font-weight: 600;
-  }
-
   .section{
     padding: 100px 0;
   }
@@ -189,19 +115,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     color: #000000a6;
   }
 
-  .section a{
-    border-radius: 50px;
-    background: #f75757;
-  }
-
-  .about-info-item span{
-    color: #f75757;
-    font-size: 2.25rem;
-  }
-
   .team h2{
     color: #242424;
-    font-weight: 600;
   }
   
   .team-img-hover .team-social li a.facebook {
@@ -286,25 +201,14 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
  }
 
  .entrust-img{
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/home-3.jpg");
-   background-size: cover; 
-   position: relative;
-}
-
-.entrust2 span{
-  color: #f75757;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/home-3.jpg");background-size: cover; position: relative;
 }
 
 .btn-main{
- transition: all 0.2s ease;
- border-radius: 50px;
+ transition: all 0.2s ease; border-radius: 50px;
 }
 
 /*Contact Us*/
-.contact-form-wrap .form-group{
-   padding-bottom: 15px;
-   margin: 0px;
-}
 .contact-form-wrap .form-group .form-control{
   background: #f5f8f9;
   height: 48px;
@@ -312,26 +216,16 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   box-shadow: none;
   width: 90%;
 }
-.contact-section{
-  padding: 100px 0;
-}
 
 .address-block li{
-  margin-bottom: 10px;
-  line-height: 1.5;
-    font-family: "Hind", serif;
-    -webkit-font-smoothing: antialiased;
-    font-size: 17px;
-    color: rgba(0, 0, 0, 0.65);
+    font-family: "Hind", serif;-webkit-font-smoothing: antialiased;color: rgba(0, 0, 0, 0.65);
 }
 
 .address-block li i {
-  font-size: 25px;
   width: 20px;
 }
 
 #googleMap{
-  width: 100%;
   height: 400px;
 }
 
